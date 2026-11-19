@@ -20,4 +20,6 @@ echo "holiday" > "My Holiday Pic.jpg"
 echo "old data" > stale.txt
 touch -d "120 days ago" stale.txt
 head -c 5000000 /dev/zero > big_file.bin
+mkdir -p subdir
+echo "nested notes" > subdir/nested_notes.txt
 echo "Test folder ready: $T"
